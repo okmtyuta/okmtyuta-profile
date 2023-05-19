@@ -1,13 +1,13 @@
-import { RetexProps } from '../types/Props'
+// import { RetexProps } from '../types/Props'
 import styles from './plus.module.scss'
 
-interface PlusProps extends RetexProps {}
+// interface PlusProps extends RetexProps {}
 
 const Space = () => {
   return <span className={styles.space}>+</span>
 }
 
-export const Plus = (props: PlusProps) => {
+export const Plus = () => {
   return (
     <span className={styles.plus}>
       <Space />

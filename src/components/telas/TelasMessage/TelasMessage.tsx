@@ -2,9 +2,9 @@ import { classNames } from '../../function/components/classnames'
 import { TelasProps } from '../Telas/TelasProps'
 
 import WarningAmberIcon from '@mui/icons-material/WarningAmber'
-import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline'
-import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined'
-import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment'
+// import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline'
+// import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined'
+// import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment'
 
 import styles from './telas-message.module.scss'
 

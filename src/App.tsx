@@ -2,7 +2,7 @@ import { Space } from './components/layout/Space'
 import { TelasColumn } from './components/telas/TelasColumn/TelasColumn'
 import { TelasHeading } from './components/telas/TelasHeading/TelasHeading'
 import { TelasHighlight } from './components/telas/TelasHighlight/TelasHighlight'
-import { TelasMessage } from './components/telas/TelasMessage/TelasMessage'
+// import { TelasMessage } from './components/telas/TelasMessage/TelasMessage'
 import { TelasParagraph } from './components/telas/TelasParagraph/TelasParagraph'
 import { TelasTitle } from './components/telas/TelasTitle/TelasTitle'
 
