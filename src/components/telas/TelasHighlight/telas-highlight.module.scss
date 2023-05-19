@@ -1,0 +1,18 @@
+@use '../../config//color.scss' as color;
+
+.highlight {
+  padding: 0px 4px;
+  border-radius: 4px;
+}
+.primary {
+  color: color.$theme-color-primary;
+  background-color: color.$theme-color-primary-lighten;
+}
+.secondary {
+  color: color.$theme-color-secondary;
+  background-color: color.$theme-color-secondary-lighten;
+}
+.tertiary {
+  color: color.$theme-color-tertiary;
+  background-color: color.$theme-color-tertiary-lighten;
+}

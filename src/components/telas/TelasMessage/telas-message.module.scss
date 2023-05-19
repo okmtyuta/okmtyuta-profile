@@ -1,0 +1,27 @@
+.message {
+  display: grid;
+  align-items: center;
+  border-radius: 8px;
+  padding: 24px 12px;
+  grid-template:
+    'warn content'
+    / 1fr 16fr;
+  gap: 12px;
+  margin: 6px 0;
+}
+
+.message-icon {
+  display: flex;
+  justify-content: center;
+  width: 36px;
+}
+
+.warning-message {
+  color: #5f2120;
+}
+.warning-icon {
+  color: #d32f2f;
+}
+.warning-background {
+  background-color: #feeded;
+}

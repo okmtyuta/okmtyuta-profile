@@ -1,0 +1,15 @@
+.space {
+  opacity: 0;
+}
+.minus {
+  position: relative;
+  padding: 0 1px;
+  margin: 0 4px;
+}
+.main {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  border-top: black solid 1px;
+}
