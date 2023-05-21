@@ -1,5 +1,5 @@
 import { TelasProps } from '../Telas/TelasProps'
-import styles from './telas-list.module.scss'
+// import styles from './telas-list.module.scss'
 
 interface TelasListItemProps extends TelasProps {}
 
