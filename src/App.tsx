@@ -14,7 +14,7 @@ function App() {
       <TelasHeading>Overview</TelasHeading>
       <TelasParagraph justify>
         東京大学理学部数学科4年生。専門は<TelasHighlight>数理物理学</TelasHighlight>
-        。大学入学からプログラミングの学習を開始。ベンチャー企業でのインターンなどを経てWebアプリケーション開発の技術を習得。使ってきた言語は，
+        。大学入学からプログラミングの学習を開始。ベンチャー企業でのインターンなどを経てWebアプリケーション開発の技術を習得。使用言語は，
         <TelasHighlight>TypeScript</TelasHighlight>，<TelasHighlight>Python</TelasHighlight>，
         <TelasHighlight>Go</TelasHighlight>など。フロントエンド，バックエンドおよびインフラに興味がある。
       </TelasParagraph>
