@@ -1,14 +1,14 @@
-import { TelasProps } from '../Telas/TelasProps'
+import { BaseProps } from '../types/BaseProps'
 import LabelIcon from '@mui/icons-material/Label'
-import styles from './telas-title.module.scss'
+import styles from './title.module.scss'
 
-interface TelasTitleProps extends TelasProps {
+interface TelasTitleProps extends BaseProps {
   posted?: string
   modified?: string
   tags?: string[]
 }
 
-export const TelasTitle = (props: TelasTitleProps) => {
+export const Title = (props: TelasTitleProps) => {
   return (
     <div className="pb-5">
       {props.posted != null && <div className={styles.posted}>{props.posted}</div>}

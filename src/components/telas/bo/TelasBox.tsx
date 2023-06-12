@@ -1,6 +1,6 @@
-import { TelasProps } from '../Telas/TelasProps'
+import { BaseProps } from '../types/BaseProps'
 
-interface TelasBoxProps extends TelasProps {
+interface TelasBoxProps extends BaseProps {
   telas?: string
 }
 

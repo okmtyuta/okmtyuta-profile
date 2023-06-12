@@ -1,8 +1,8 @@
 import { classNames } from '../../function/components/classnames'
-import { TelasProps } from '../Telas/TelasProps'
-import styles from './telas-paragraph.module.scss'
+import { BaseProps } from '../types/BaseProps'
+import styles from './paragraph.module.scss'
 
-interface TelasParagraphProps extends TelasProps {
+interface ParagraphProps extends BaseProps {
   justify?: boolean
 }
 
@@ -14,6 +14,6 @@ const getJustify = (justify?: boolean) => {
   return ''
 }
 
-export const TelasParagraph = (props: TelasParagraphProps) => {
+export const Paragraph = (props: ParagraphProps) => {
   return <p className={classNames(styles.paragraph, getJustify(props.justify))}>{props.children}</p>
 }

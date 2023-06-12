@@ -1,10 +1,10 @@
 import { classNames } from '../../function/components/classnames'
-import { TelasProps } from '../Telas/TelasProps'
-import styles from './telas-highlight.module.scss'
+import { BaseProps } from '../types/BaseProps'
+import styles from './highlight.module.scss'
 
 type Order = 'primary' | 'secondary' | 'tertiary'
 
-interface TelasHighlightProps extends TelasProps {
+interface HighlightProps extends BaseProps {
   order?: Order
 }
 
@@ -22,6 +22,6 @@ const getOrder = (order?: Order) => {
   return styles.primary
 }
 
-export const TelasHighlight = (props: TelasHighlightProps) => {
+export const Highlight = (props: HighlightProps) => {
   return <span className={classNames(styles.highlight, getOrder(props.order))}>{props.children}</span>
 }

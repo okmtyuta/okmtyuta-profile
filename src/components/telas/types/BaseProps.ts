@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
 
-export interface TelasProps {
+export interface BaseProps {
   children?: ReactNode
 }

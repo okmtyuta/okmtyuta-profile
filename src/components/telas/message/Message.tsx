@@ -1,16 +1,16 @@
 import { classNames } from '../../function/components/classnames'
-import { TelasProps } from '../Telas/TelasProps'
+import { BaseProps } from '../types/BaseProps'
 
 import WarningAmberIcon from '@mui/icons-material/WarningAmber'
 // import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline'
 // import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined'
 // import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment'
 
-import styles from './telas-message.module.scss'
+import styles from './message.module.scss'
 
 type MessageType = 'warning' | 'danger' | 'success' | 'info'
 
-interface TelasMessageProps extends TelasProps {
+interface MessageProps extends BaseProps {
   type: MessageType
 }
 
@@ -45,7 +45,7 @@ const messageConfig: MessageConfig = {
   }
 }
 
-export const TelasMessage = (props: TelasMessageProps) => {
+export const Message = (props: MessageProps) => {
   const type = props.type
   const background = messageConfig[type].background
   const message = messageConfig[type].message
