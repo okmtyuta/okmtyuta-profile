@@ -1,0 +1,35 @@
+.text-field {
+  color: inherit;
+  font-family: inherit;
+  position: relative;
+  height: 48px;
+  width: 256px;
+  z-index: 0;
+  outline: rgb(204, 204, 204) solid 1px;
+  border-radius: 4px;
+  margin: 10px;
+}
+.text-field-label {
+  font-family: inherit;
+  transform: translate(12px, -50%);
+  top: 50%;
+  color: rgb(56, 60, 60);
+  z-index: 1;
+  font-size: 14px;
+  background-color: white;
+  padding: 4px;
+}
+.text-field-input {
+  font-family: inherit;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  background-color: transparent;
+  padding: 0px 12px;
+  box-sizing: border-box;
+  color: rgb(56, 60, 60);
+}
+.text-field-input:focus {
+  
+}

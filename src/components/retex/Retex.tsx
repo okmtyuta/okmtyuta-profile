@@ -27,9 +27,9 @@ export const Retex = (props: RetexProps) => {
         id: token.id,
         element: (
           <span
-            onMouseOver={() => {
-              console.log('INTERNAL ERR')
-            }}
+            // onMouseOver={() => {
+            //   console.log('INTERNAL ERR')
+            // }}
             style={style}
           >
             {token.content}

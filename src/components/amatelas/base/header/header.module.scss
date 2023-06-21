@@ -1,0 +1,26 @@
+@use '../../../config/color.scss' as color;
+
+.header {
+  display: grid;
+  padding: 24px 0;
+  grid-template:
+    'left center right'
+    / 3fr 5fr 2fr;
+  align-items: center;
+}
+.left {
+  grid-area: left;
+  color: color.$theme-color-primary;
+}
+.center {
+  grid-area: center;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: right;
+}
+
+.github-icon {
+  height: 36px;
+}

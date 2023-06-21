@@ -1,0 +1,23 @@
+@use '../../../config/color.scss' as color;
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  &:hover {
+    background-color: color.$theme-color-primary-lighten;
+    color: color.$theme-color-primary;
+  }
+  transition: 0.5s;
+}
+
+.label-active {
+  background-color: color.$theme-color-primary-lighten;
+  color: color.$theme-color-primary;
+}

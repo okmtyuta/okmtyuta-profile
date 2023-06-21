@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.js'
 import './index.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Top } from './pages/top.js'
 import { DesignRule } from './pages/design-rule.js'
+import { Article } from './pages/articles/article.js'
+import App from './App.js'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/about',
-    element: <Top />
+    element: <App />
+  },
+  {
+    path: '/articles/:id',
+    element: <Article />
   },
   {
     path: '/design-rule',

@@ -1,50 +1,90 @@
-import { Space } from '../components/layout/Space'
-import { Retex } from '../components/retex/Retex'
-import { Column } from '../components/telas/column/TelasColumn'
-import { Heading } from '../components/telas/heading/TelasHeading'
-import { Highlight } from '../components/telas/highlight/TelasHighlight'
-import { List, ListItem } from '../components/telas/list/List'
-import { Paragraph } from '../components/telas/paragraph/TelasParagraph'
-import { Title } from '../components/telas/title/title'
+import { Heading } from '../components/amatelas/base/heading/Heading'
+import { Paragraph } from '../components/amatelas/base/paragraph/Paragraph'
+import { Title } from '../components/amatelas/base/title/title'
+import { Frame } from '../components/page/Frame'
 
 export const Top = () => {
   return (
-    <Column>
+    <Frame pageId={1}>
       <Title posted="20th May 2023">Introduction</Title>
-      <Heading>Overview</Heading>
+      <Heading type="h2">Overview</Heading>
       <Paragraph justify>
-        東京大学理学部数学科4年生。専門は<Highlight>数理物理学</Highlight>
-        。大学入学からプログラミングの学習を開始。ベンチャー企業でのインターンなどを経てWebアプリケーション開発の技術を習得。使用言語は，
-        <Highlight>TypeScript</Highlight>，<Highlight>Python</Highlight>，<Highlight>Go</Highlight>
-        など。フロントエンド，バックエンドおよびインフラに興味がある。
+        Named after the Japanese word for 'bear', Kuma UI embodies the spirit of the "熊" (kuma 🐻) - strong, reliable,
+        and efficient. We created it to offer a zero-runtime, type-safe solution to the typical CSS-in-JS challenges,
+        thereby ensuring your applications stay as fast and light as possible ⚡️
       </Paragraph>
 
-      <Heading>Education</Heading>
-      <List>
-        <ListItem>熊本県立第二高等学校</ListItem>
-        <ListItem>東京大学教養学部</ListItem>
-        <ListItem>東京大学理学部数学科</ListItem>
-      </List>
-
-      <Heading>Job Experiences</Heading>
-      <List>
-        <ListItem>株式会社楽天グループ</ListItem>
-        <ListItem>株式会社ネットプロテクションズ</ListItem>
-        <ListItem>株式会社PKSHA Technology</ListItem>
-      </List>
-
-      <Heading>Contact</Heading>
-      <Paragraph>okmtyuta[at]gmail.comまでご連絡ください。</Paragraph>
-
+      <Heading type="h2">Developer Experience: Familiar Yet Revolutionary</Heading>
       <Paragraph>
-        <Retex text="集合$X$は線型空間であるとし，$X$上のHermite内積が定義されているとする。この内積から定まる距離に関して$X$が完備かつ可分であるとき，$X$" />
+        Kuma UI is built with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS
+        during the build process itself, which results in an ultra fast rendering. This means your application will stay
+        as agile and responsive as possible, delivering an optimal user experience. No more trade-offs between power and
+        performance. With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing
+        a zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.Kuma UI is built
+        with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS during the build
+        process itself, which results in an ultra fast rendering. This means your application will stay as agile and
+        responsive as possible, delivering an optimal user experience. No more trade-offs between power and performance.
+        With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing a
+        zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.Kuma UI is built
+        with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS during the build
+        process itself, which results in an ultra fast rendering. This means your application will stay as agile and
+        responsive as possible, delivering an optimal user experience. No more trade-offs between power and performance.
+        With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing a
+        zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.Kuma UI is built
+        with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS during the build
+        process itself, which results in an ultra fast rendering. This means your application will stay as agile and
+        responsive as possible, delivering an optimal user experience. No more trade-offs between power and performance.
+        With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing a
+        zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.Kuma UI is built
+        with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS during the build
+        process itself, which results in an ultra fast rendering. This means your application will stay as agile and
+        responsive as possible, delivering an optimal user experience. No more trade-offs between power and performance.
+        With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing a
+        zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.Kuma UI is built
+        with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS during the build
+        process itself, which results in an ultra fast rendering. This means your application will stay as agile and
+        responsive as possible, delivering an optimal user experience. No more trade-offs between power and performance.
+        With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing a
+        zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.Kuma UI is built
+        with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS during the build
+        process itself, which results in an ultra fast rendering. This means your application will stay as agile and
+        responsive as possible, delivering an optimal user experience. No more trade-offs between power and performance.
+        With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing a
+        zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.Kuma UI is built
+        with performance as its cornerstone. By utilizing a zero-runtime approach, it extracts CSS during the build
+        process itself, which results in an ultra fast rendering. This means your application will stay as agile and
+        responsive as possible, delivering an optimal user experience. No more trade-offs between power and performance.
+        With Kuma UI, you can have both.Kuma UI is built with performance as its cornerstone. By utilizing a
+        zero-runtime approach, it extracts CSS during the build process itself, which results in an ultra fast
+        rendering. This means your application will stay as agile and responsive as possible, delivering an optimal user
+        experience. No more trade-offs between power and performance. With Kuma UI, you can have both.
       </Paragraph>
 
-      <div className="flex justify-center pt-12">
-        <span className="font-anton text-theme-color-primary">POWERED BY </span>
-        <Space />
-        <Highlight>Amatelas UI</Highlight>
-      </div>
-    </Column>
+      <Heading type="h2">Job Experiences</Heading>
+      <Paragraph>
+        We're passionate about providing a familiar and intuitive developer experience. If you've used Chakra UI, Styled
+        System, or xstyled, you'll feel right at home with Kuma UI. What sets Kuma UI apart? It's simple: our
+        zero-runtime approach. This not only makes Kuma UI performance-friendly, but also ensures compatibility with
+        Next.js's App Router and React Server Components (RSC). You can write your styles just as you would with other
+        libraries, but with Kuma UI, you enjoy superior performance and greater flexibility.
+      </Paragraph>
+
+      <Heading type="h2">Contact</Heading>
+      <Paragraph>okmtyuta[at]gmail.comまでご連絡ください。</Paragraph>
+    </Frame>
   )
 }

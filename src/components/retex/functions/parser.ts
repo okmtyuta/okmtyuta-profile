@@ -6,7 +6,6 @@ export const parser = (text: string) => {
   const tokens: Token[] = []
   let id = 0
   while (processing.length > 0) {
-    console.log(processing)
     const res = dollarTrimmer(processing, id)
     id += 2
     tokens.push(res.before)
