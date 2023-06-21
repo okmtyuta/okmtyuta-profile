@@ -1,13 +1,10 @@
 import { Space } from './components/layout/Space'
 import { Retex } from './components/retex/Retex'
-import { Column } from './components/amatelas/layout/column/Column'
-
 import { Heading } from './components/amatelas/base/heading/Heading'
 import { Highlight } from './components/amatelas/display/highlight/Highlight'
 import { List, ListItem } from './components/amatelas/base/list/List'
 import { Paragraph } from './components/amatelas/base/paragraph/Paragraph'
 import { Title } from './components/amatelas/base/title/title'
-import { TextField } from './components/amatelas/input/TextField'
 import { Menu } from './components/amatelas/navigation/menu/Menu'
 import { Frame } from './components/page/Frame'
 

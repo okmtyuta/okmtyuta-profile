@@ -1,9 +1,9 @@
-import { BaseProps } from '../../types/BaseProps'
+// import { BaseProps } from '../../types/BaseProps'
 import styles from './text-field.module.scss'
 
-interface TextFieldProps extends BaseProps {}
+// interface TextFieldProps extends BaseProps {}
 
-export const TextField = (props: TextFieldProps) => {
+export const TextField = () => {
   return (
     <span className={styles['text-field']}>
       <label className={styles['text-field-label']}></label>

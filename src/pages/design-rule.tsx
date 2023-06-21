@@ -1,4 +1,3 @@
-import { Heading } from '../components/amatelas/base/heading/Heading'
 import { Paragraph } from '../components/amatelas/base/paragraph/Paragraph'
 import { Title } from '../components/amatelas/base/title/title'
 import { Frame } from '../components/page/Frame'

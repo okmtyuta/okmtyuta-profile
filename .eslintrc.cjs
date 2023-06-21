@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   env: { browser: true, es2020: true, node: true },
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:react-hooks/recommended'],
   parser: '@typescript-eslint/parser',
@@ -6,6 +6,7 @@ export default {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
-    '@typescript-eslint/no-empty-interface': 'off'
+    '@typescript-eslint/no-empty-interface': 'off',
+    'no-extra-boolean-cast': 'off'
   }
 }
