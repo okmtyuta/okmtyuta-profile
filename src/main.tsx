@@ -4,29 +4,30 @@ import './index.css'
 import { App } from './App'
 
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-// import { Top } from './pages/top.js'
-// import { DesignRule } from './pages/design-rule.js'
-// import { Article } from './pages/articles/article.js'
-// import App from './App.js'
+import { createBrowserRouter } from 'react-router-dom'
+import { Top } from './pages/top.js'
+import { DesignRule } from './pages/design-rule.js'
+import { Article } from './pages/articles/article.js'
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Top />
-//   },
-//   {
-//     path: '/about',
-//     element: <App />
-//   },
-//   {
-//     path: '/articles/:id',
-//     element: <Article />
-//   },
-//   {
-//     path: '/design-rule',
-//     element: <DesignRule />
-//   }
-// ])
+/* eslint @typescript-eslint/no-unused-vars: 0 */
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Top />
+  },
+  {
+    path: '/about',
+    element: <App />
+  },
+  {
+    path: '/articles/:id',
+    element: <Article />
+  },
+  {
+    path: '/design-rule',
+    element: <DesignRule />
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
