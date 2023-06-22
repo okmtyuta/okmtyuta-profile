@@ -1,5 +1,5 @@
 // import { useParams } from 'react-router-dom'
-import { Space } from '../../components/layout/Space'
+import { Space } from '../../components/util/space/Space'
 import { Column } from '../../components/amatelas/layout/column/Column'
 import { Heading } from '../../components/amatelas/base/heading/Heading'
 import { Highlight } from '../../components/amatelas/display/highlight/Highlight'

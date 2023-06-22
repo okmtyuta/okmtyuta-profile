@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import styles from './frame.module.scss'
 // import { Menu } from '../amatelas/navigation/menu/Menu'
-import { Space } from '../layout/Space'
+import { Space } from '../util/space/Space'
 import { Highlight } from '../amatelas/display/highlight/Highlight'
 import { Header } from './header/Header'
 
@@ -48,9 +48,9 @@ export const Frame = (props: FrameProps) => {
         </div>
       </div>
       <div className="flex justify-center pt-12">
-        <span className="font-anton text-theme-color-primary">POWERED BY </span>
+        <span className="font-anton text-theme-color-primary">Designed by </span>
         <Space />
-        <Highlight>Amatelas UI</Highlight>
+        <Highlight>okmtyuta</Highlight>
       </div>
     </div>
   )

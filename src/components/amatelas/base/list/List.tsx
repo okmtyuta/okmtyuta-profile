@@ -13,7 +13,7 @@ interface ListProps extends BaseProps {
 }
 
 export const List = (props: ListProps) => {
-  const classes = []
+  const classes = [styles.list]
   if (props.indent) {
     classes.push(styles.indent)
   }
