@@ -3,7 +3,7 @@ import styles from './frame.module.scss'
 // import { Menu } from '../amatelas/navigation/menu/Menu'
 import { Space } from '../layout/Space'
 import { Highlight } from '../amatelas/display/highlight/Highlight'
-import { Header } from '../amatelas/base/header/Header'
+import { Header } from './header/Header'
 
 interface FrameProps {
   children: ReactNode
