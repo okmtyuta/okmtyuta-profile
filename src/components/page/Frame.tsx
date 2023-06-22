@@ -37,21 +37,20 @@ export const Frame = (props: FrameProps) => {
   //   return menuItem
   // })
   return (
-    <div className={styles.frame}>
-      <div className={styles.header}>
-        <Header></Header>
-      </div>
-      <div className={`${styles.menu} ${styles.hide}`}>
-        {/* <Menu menuItems={activatedMenuItems} /> */}
-      </div>
-      <div className={styles.main}>
-        <div>{props.children}</div>
-
-        <div className="flex justify-center pt-12">
-          <span className="font-anton text-theme-color-primary">POWERED BY </span>
-          <Space />
-          <Highlight>Amatelas UI</Highlight>
+    <div>
+      <div className={styles.frame}>
+        <div className={styles.header}>
+          <Header></Header>
         </div>
+        <div className={`${styles.menu} ${styles.hide}`}>{/* <Menu menuItems={activatedMenuItems} /> */}</div>
+        <div className={styles.main}>
+          <div>{props.children}</div>
+        </div>
+      </div>
+      <div className="flex justify-center pt-12">
+        <span className="font-anton text-theme-color-primary">POWERED BY </span>
+        <Space />
+        <Highlight>Amatelas UI</Highlight>
       </div>
     </div>
   )

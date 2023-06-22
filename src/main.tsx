@@ -9,7 +9,6 @@ import { Top } from './pages/top.js'
 import { DesignRule } from './pages/design-rule.js'
 import { Article } from './pages/articles/article.js'
 
-/* eslint @typescript-eslint/no-unused-vars: 0 */
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,6 +27,8 @@ const router = createBrowserRouter([
     element: <DesignRule />
   }
 ])
+
+console.log(router)
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
