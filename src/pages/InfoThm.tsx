@@ -4,6 +4,7 @@ import { Title } from '../components/amatelas/base/title/title'
 import { Highlight } from '../components/amatelas/display/highlight/Highlight'
 // import { Highlight } from '../components/amatelas/display/highlight/Highlight'
 import { Frame } from '../components/page/Frame'
+import { Katex } from '../components/retex/Katex'
 // import { Retex } from '../components/retex/Retex'
 
 export const InfoThm = () => {
@@ -47,17 +48,17 @@ export const InfoThm = () => {
         <Highlight>アナログ通信路</Highlight>という。とくに，入力および出力が0または1という値をとるディジタル通信路を
         <Highlight>二元通信路</Highlight>という。
       </Paragraph>
-{/* 
+
       <Paragraph>
         情報源から発生する記号を<Highlight>情報源記号</Highlight>
         という。また，符号化によって情報源記号またはその系列に割り当てられた系列を<Highlight>符号語</Highlight>
         といって，符号語全体からなる集合を<Highlight>符号</Highlight>
         という。さらに，符号語に用いれられる記号全体からなる集合を<Highlight>符号アルファベット</Highlight>
         という。とくに元の数が
-        <Retex text="$q$" />
+        <Katex equation="q" />
         である符号アルファベットをもつ符号を
         <Highlight>
-          <Retex text="$q$" />
+          <Katex equation="q" />
           元符号
         </Highlight>
         という。受信した符号語の複合を誤る確率を<Highlight>復号誤り率</Highlight>
@@ -67,7 +68,7 @@ export const InfoThm = () => {
       <Paragraph>
         通信路では誤りが生じうるため，通信路の出力系列は，通信路に入力された符号系列とは必ずしも一致しない。そこで，入力された符号系列と区別して，通信路の出力系列を
         <Highlight>受信系列</Highlight>という。
-      </Paragraph> */}
+      </Paragraph>
     </Frame>
   )
 }
