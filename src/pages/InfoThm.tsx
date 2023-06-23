@@ -1,15 +1,15 @@
-import { Paragraph } from '../components/amatelas/base/paragraph/Paragraph'
+// import { Paragraph } from '../components/amatelas/base/paragraph/Paragraph'
 import { Title } from '../components/amatelas/base/title/title'
-import { Highlight } from '../components/amatelas/display/highlight/Highlight'
+// import { Highlight } from '../components/amatelas/display/highlight/Highlight'
 import { Frame } from '../components/page/Frame'
-import { Retex } from '../components/retex/Retex'
+// import { Retex } from '../components/retex/Retex'
 
 export const InfoThm = () => {
   return (
     <Frame pageId={1}>
       <Title posted="June 23th 2023">情報理論入門1</Title>
 
-      <Paragraph>情報理論（今井秀樹）の1章および2章の内容を整理します。</Paragraph>
+      {/* <Paragraph>情報理論（今井秀樹）の1章および2章の内容を整理します。</Paragraph>
 
       <Paragraph>
         情報理論の通信伝達システムにおいて，情報を発生する源ことを<Highlight>情報源</Highlight>
@@ -65,7 +65,7 @@ export const InfoThm = () => {
       <Paragraph>
         通信路では誤りが生じうるため，通信路の出力系列は，通信路に入力された符号系列とは必ずしも一致しない。そこで，入力された符号系列と区別して，通信路の出力系列を
         <Highlight>受信系列</Highlight>という。
-      </Paragraph>
+      </Paragraph> */}
     </Frame>
   )
 }
