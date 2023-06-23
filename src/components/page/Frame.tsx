@@ -47,7 +47,7 @@ export const Frame = (props: FrameProps) => {
           <div>{props.children}</div>
         </div>
       </div>
-      <div className="flex justify-center pt-12">
+      <div className="mb-24 flex justify-center pt-12">
         <span className="font-anton text-theme-color-primary">Designed by </span>
         <Space />
         <Highlight>okmtyuta</Highlight>

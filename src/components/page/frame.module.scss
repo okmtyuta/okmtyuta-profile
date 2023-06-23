@@ -11,10 +11,10 @@
     margin: 0px 96px 48px 96px;
   }
   @include mq.mq(sp) {
-    margin: 48px 24px;
+    margin: 12px 24px;
   }
   @include mq.mq(tab) {
-    margin: 48px 24px;
+    margin: 12px 24px;
   }
 }
 
