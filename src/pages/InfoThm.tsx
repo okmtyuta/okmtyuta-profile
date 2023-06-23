@@ -34,7 +34,7 @@ export const InfoThm = () => {
         <Highlight>通信路符号化</Highlight>という。
       </Paragraph>
 
-      {/* <Paragraph>
+      <Paragraph>
         もともとの通報を完全に複合できる符号化を<Highlight>可逆符号化</Highlight>または
         <Highlight>情報無損失符号化</Highlight>という。一方，復号後の通報がもともとの通報と異なりうる符号化を
         <Highlight>非可逆符号化</Highlight>または<Highlight>情報損失符号化</Highlight>
@@ -47,7 +47,7 @@ export const InfoThm = () => {
         <Highlight>アナログ通信路</Highlight>という。とくに，入力および出力が0または1という値をとるディジタル通信路を
         <Highlight>二元通信路</Highlight>という。
       </Paragraph>
-
+{/* 
       <Paragraph>
         情報源から発生する記号を<Highlight>情報源記号</Highlight>
         という。また，符号化によって情報源記号またはその系列に割り当てられた系列を<Highlight>符号語</Highlight>
